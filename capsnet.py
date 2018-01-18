@@ -207,7 +207,7 @@ if __name__ == '__main__':
     model = CapsNet(args.routing_iterations)
 
     if args.with_reconstruction:
-        reconstruction_model = ReconstructiodimensionsnNet(16, 10)
+        reconstruction_model = ReconstructionNet(16, 10)
         reconstruction_alpha = 0.0005
         model = CapsNetWithReconstruction(model, reconstruction_model)
 
