@@ -1,1 +1,1 @@
-# pytorch-container-tests
+# Comparing Capsule Networks to regular ConvNets
